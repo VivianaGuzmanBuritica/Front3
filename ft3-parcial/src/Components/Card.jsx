@@ -1,11 +1,27 @@
 import React from 'react'
+import './Card.css'
 
-const Cards = ({nombre, medico}) => {
+const Cards = ({nombre, edad, estacion}) => {
+
+ 
+  let content;
   return (
 
-    <div> 
-        <h3>{nombre} Tenes turno con el {medico}</h3>
-        <h3>Para el día / a las 16:00 hs</h3>
+  
+    <div className='card'>
+      <h3></h3>
+        <p>Edad: {edad}</p>
+        <p>Nombre : {nombre}</p>
+        {estacion == "Primavera" ? ( <p className='primavera'>Estacion : {estacion}</p>)
+        : estacion == "Verano" ? ( <p className='verano'>Estacion : {estacion}</p>):
+        estacion == "Otoño" ? ( <p className='otonio'>Estacion : {estacion}</p>):
+        ( <p className='invierno'>Estacion : {estacion}</p>)
+      }
+      
+       
+       
+       
+
     </div>
   )
 }

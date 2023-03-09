@@ -1,0 +1,38 @@
+ /* *{
+    margin: 0;
+    box-sizing: border-box;
+ } */
+.card{
+    margin-top: 30px;
+    width: 379px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: beige;
+    background-image: url('https://us.123rf.com/450wm/hannamariah/hannamariah1709/hannamariah170900015/86794046-una-calle-arbolada-fotografiada-en-las-cuatro-estaciones-desde-la-misma-ubicaci%C3%B3n-exacta-las-ramas.jpg?ver=6');
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+
+.card p{
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.primavera{
+    background-color: pink;
+}
+
+.verano{
+    background-color: yellow;
+}
+
+.otonio{
+    background-color: orange;
+}
+
+.invierno{
+    background-color: rgb(49, 49, 235);
+}
